@@ -32,7 +32,7 @@ def main():
 
     args = parser.parse_args()
 
-    # Step 1: Handle File input
+    # Step 1: handle file input
     file_content = ""
     if args.file:
         if not os.path.exists(args.file):
@@ -54,7 +54,7 @@ def main():
         parser.print_help()
         return
 
-    # Step 3: Run the query
+    # Step 3: run the query
     print(" Thinking...")
     ai_output = get_ai_response(final_prompt)
 
