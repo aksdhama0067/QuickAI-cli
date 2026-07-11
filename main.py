@@ -59,6 +59,5 @@ def main():
     print("\n AI Response:")
     print(ai_output)
 
-
 if __name__ == "__main__":
     main()
