@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
 def get_ai_response(prompt: str, model_name: str = "gemini-2.5-flash"):
     try:
         client = genai.Client()
