@@ -16,7 +16,6 @@ def get_ai_response(prompt: str, model_name: str = "gemini-2.5-flash"):
     except Exception as e:
         return f" Error connecting to API: {e}\nMake sure GEMINI_API_KEY is set in your environment."
 
-
 def main():
     parser = argparse.ArgumentParser(
         description=" QuickAI CLI: A zero-friction AI assistant directly in your terminal."
